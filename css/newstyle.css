@@ -1,0 +1,269 @@
+a:hover{
+	text-decoration:none;
+}
+body{
+	background: #e6edff
+}
+
+
+.section{
+	
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+.section h2.section-head{
+	color:black;
+	text-align:center;
+	margin-bottom:40px;
+	font-family: cursive;
+}
+
+.section h2.section-head:after{
+	background:#e74c3c;
+	content: "";
+	display:block;
+	width:100px;
+	height: 3px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	
+}
+
+#header{
+	color:white;
+	background:#001432;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#logo{
+	font-size:1.25rem;
+	margin-top:9px;
+}
+
+#menu{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#menu li{
+	display:inline-block;
+	
+}
+
+#menu li a {
+	color:white;
+	
+	display:block;
+	padding:15px 10px;
+}
+
+#menu li a:hover{
+	background: cadetblue;
+    border-radius: 18px;
+}
+
+a {
+	text-decoration:none;
+}
+
+#menu li a.active{
+	background: cadetblue;
+    border-radius: 18px;
+}
+.topcontainer{
+	padding: inherit;
+}
+
+#banner{
+	background:url('../images/topp.jpg') no-repeat 0 0;
+	background-size:cover;
+}
+
+.banner-title h2{
+	background: rgba(255,255,255,0.8);
+	display:inline-block;
+	padding:10px;
+	margin:0;
+}
+
+.banner-title p.lead{
+	color:white;
+	font-family: cursive;
+	background:cadetblue;
+	padding:10px;
+	display: -webkit-inline-box;
+	border-radius: 23px;
+}
+
+.banner-title{
+	margin-top: -17px
+}
+.DonateBtn{
+	background: cadetblue;
+	color: white;
+}
+.DonateBtn:hover{
+	background: cadetblue;
+	border: none;
+    color: white;
+}
+
+.service-box{
+	text-align:center;
+	background: white;
+    border-radius: 24px;
+}
+.donationSection{
+	background:#e6edff;
+}
+
+.donImage{
+	width:75px;
+}
+
+.mission-sub-head{
+	border-left: 8px solid cadetblue;
+    padding: 5px 15px;
+}
+
+/* .service-box i.fa{
+	color:#e74c3c;
+	font-size:70px;
+	margin-bottom:15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+#footer-sidebar{
+	color:white;
+	background:cadetblue;
+	padding:20px 0;
+}
+
+.footer-widget h4:after{
+	content:"";
+	background:white;
+	display:block;
+	width:50px;
+	height:2px;
+	margin:5px 0;
+	
+}
+
+.footer-widget a{
+	color:white;
+	
+}
+
+.latest-news{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.latest-news li{
+	margin-bottom:3px;
+	
+}
+
+.latest-news li:before{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-right:4px;
+}
+
+#footer{
+	color:white;
+	background:#64c2c5;
+	padding:10px 0;
+}
+
+#social-icons{
+	list-style:none;
+	color:white;
+	margin:0;
+	padding:0;
+	
+}
+
+#social-icons li{
+	display:inline-block;
+	padding-left:15px;
+}
+
+
+#social-icons li a{
+	color:white;
+	font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// */
+
+
+.gallery-sec{
+	/* position: relative; */
+	padding: 50px 0;
+}
+
+.gallery-sec .image-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	padding: 10px;
+}
+
+.gallery-sec .image-container .image{
+	height: 200px;
+	width: 300px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.gallery-sec .image-container .image img{
+	height: 100%;
+	width: 100%;
+	border: 5px solid #d4d4d4;
+	object-fit: cover;
+	transition: 0.2s linear;
+}
+
+.gallery-sec .image-container .image:hover img{
+ transform: scale(1.1);
+}
+
+.formm{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}

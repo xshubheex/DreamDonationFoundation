@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <form onSubmit="sendEmails(); reset(); return false;" class="row g-3 formm">
+        <div class="col-md-6">
+          <label for="Name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <label for="Mobile No." class="form-label">Mobile No.</label>
+          <input type="text" class="form-control" id="mobileno" placeholder="Your Mobile No." >
+        </div>
+        <div class="col-12">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+        </div>
+        <div class="col-12">
+          <label  class="form-label">Address</label>
+          <input type="text" class="form-control"  id="address" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="city">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="state" class="form-select">
+            <option selected>Choose...</option>
+            <option>West Bengal</option>
+            <option>Jharkhand</option>
+            
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="zip">
+        </div>
+        <div class="col 12 d-flex justify-content-end pt-3">
+            <div class="form-group">
+                <select name="donation" id="donation">
+                    <option value="">Choose Donation or Wastage</option>
+                    <option value="food">Food</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="footware">Footware</option>
+                    <option value="books">Books</option>
+                    <option value="fund">Fund</option>
+                    <option value="gadget">Ele. Gadgets</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+
+      <script src=" https://smtpjs.com/v3/smtp.js"></script>
+      <script src="script/scriptt.js"></script>
+</body>
+</html>
